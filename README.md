@@ -24,7 +24,7 @@ This section and its subsections describe grammatical conventions used throughou
 * All rules must be written in English using proper English grammar and spelling. American and British English spelling are both acceptable.
 * Sentences must be separated by a single space.
 * Paragraphs must be separated by a blank line.
-* Each paragraph or list element must be shorter than 1000 characters. [NOTE: the longest paragraph I could find in the BlogNomic ruleset was 976 characters, and it had 7 sentences. Even though Discord's embed character limit is 2048, I want to be able to automatically add links throughout the ruleset.]
+* Each paragraph or list element must be shorter than 1000 characters.
 * Rules may not contain invisible characters besides newlines, normal spaces, and (in special cases) tabs. Non-ASCII characters may be used sparingly.
 
 ### Headers and tags
