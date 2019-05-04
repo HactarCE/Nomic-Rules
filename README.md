@@ -81,7 +81,23 @@ If a punitive action poll passes by simple majority, then the accused player gai
 
 ## Channels
 
+The game rules govern only messages and reactions in the GAME CHANNELS category of the Discord server.
+
 ### #general
+
+Players may converse freely in the #general channel.
+
+### #proposals
+
+The proposals channel is governed by the [proposals](#proposals) section of the game rules and managed by a bot.
+
+### #polls
+
+The polls channel is governed by the [polls](#polls) section of the game rules.
+
+### #game-rules
+
+The game-rules channel presents an alternate version of this rules document.
 
 ## Active and inactive players
 
