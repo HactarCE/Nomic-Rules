@@ -2,6 +2,29 @@
 
 This is the reference for the game rules of Nomic [VERSION]. This document is not guaranteed to always be up-to-date as the game rules are modified, however it is the duty of all players to keep this document accurate as game rules are modified. Where this document disagrees with the game rules, players must follow the game rules as they legally are, rather than their description in this document.
 
+* [Meta rules](#meta-rules)
+    * [Precedence](#precedence)
+    * [Disallowed by default](#disallowed-by-default)
+    * [Errors](#errors)
+    * [Rule violations](#rule-violations)
+    * [Rule violation polls](#rule-violation-polls)
+    * [Punitive action](#punitive-action)
+* [Channels](#channels)
+    * [#general](#general)
+* [Active and inactive players](#active-and-inactive-players)
+* [Quantities](#quantities)
+* [Polls](#polls)
+* [Proposals](#proposals)
+    * [Voting on proposals](voting-on-proposals)
+    * [Closing proposals](closing-proposals)
+    * [Passing and failing proposals](passing-and-failing-proposals)
+* [Style conventions](#style-conventions)
+    * [Content](#content)
+    * [Headers and tags](#headers-and-tags)
+    * [Lists](#lists)
+    * [Formatting](#formatting)
+* [Glossary](#glossary)
+
 ## Meta rules
 
 This section details how the rules are to be applied to the game.
