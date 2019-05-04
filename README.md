@@ -21,30 +21,30 @@ This section and its subsections describe grammatical conventions used throughou
 
 ### Content
 
-* All rules must be written in English using proper English grammar and spelling. American and British English spelling are both acceptable.
-* Sentences must be separated by a single space.
-* Paragraphs must be separated by a blank line.
+* All rules should be written in English using proper English grammar and spelling. American and British English spelling are both acceptable.
+* Sentences should be separated by a single space.
+* Paragraphs should be separated by a blank line.
 * Each paragraph or list element must be shorter than 1000 characters.
-* Rules may not contain invisible characters besides newlines, normal spaces, and (in special cases) tabs. Non-ASCII characters may be used sparingly.
+* Rules may not contain invisible characters besides newlines, normal spaces, and (in special cases) tabs. Non-ASCII characters should be used sparingly.
 
 ### Headers and tags
 
 * Each section must have a header and a tag.
 * Headers must use [sentence case](https://en.wiktionary.org/wiki/sentence_case), and must be a short, succinct word or phrase (not a complete sentence) describing the section.
 * A section tag must be a string of text begin with a lowercase letter, end with either a lowercase letter or a number, and may contain only lowercase letters `a`-`z`, digits `0`-`9`, and hyphens `-`.
-* A rule's tag must resemble its header.
+* A rule's tag should resemble its header.
 * Tags must be unique; no two rule sections may have the same tag.
 
 ### Lists
 
-* Unordered lists must use a single asterisk followed by a space (`* `) before each list element.
-* Ordered lists must use a single number followed by a period and a space (`1. `) before each list element.
-* The numbers of a ordered list must start at `1` and increase by `1` for each element.
-* Lists can not be nested.
-* Lists must be separated by the paragraphs above and below by a blank line.
+* Unordered lists should use a single asterisk followed by a space (`* `) before each list element.
+* Ordered lists should use a single number followed by a period and a space (`1. `) before each list element.
+* The numbers of a ordered list should start at `1` and increase by `1` for each element.
+* Lists should not be nested.
+* Lists should be separated by the paragraphs above and below by a blank line.
 * Two lists of the same type can not be adjacent. (This is treated as one list when converted to Markdown.)
 
-Within a given list, all elements must have the same style, chosen from the following:
+Within a given list, all elements should have the same style, chosen from the following:
 
 * Elements are words or phrases, and do not end with a period.
 * Elements are clauses ending in a period (or other punctuation), and optionally followed by complete sentences.
@@ -52,7 +52,7 @@ Within a given list, all elements must have the same style, chosen from the foll
 
 ### Formatting
 
-Formatting (bold, italics, underline, and strikethrough) is available, and may be used sparingly. From [GitHub's "Mastering Markdown" document](https://guides.github.com/features/mastering-markdown/), the following may be used:
+From [GitHub's "Mastering Markdown" document](https://guides.github.com/features/mastering-markdown/), the following may be used:
 
 * Emphasis (italics and bold, not including double underscore `__`)
 * Unordered and ordered lists (not nested)
@@ -66,7 +66,7 @@ Additionally, square brackets `[]` containing a tag will be converted into links
 
 ## Meta rules
 
-This Section details how the rules are to be applied to the game.
+This section details how the rules are to be applied to the game.
 
 ### Precedence
 
@@ -92,7 +92,7 @@ Upon becoming aware of an error they have themselves caused, if a player is able
 
 A rule violation is a game action that is not permitted by the rules.
 
-If any player (hereby "the accusing player") believes that another player (hereby "the accused player") has violated the rules, then the accusing player may conduct a majority [Poll](#polls) (called a "Rule Violation Poll") to determine whether the accused player has violated the rules.
+If any player (hereby "the accusing player") believes that another player (hereby "the accused player") has violated the rules, then the accusing player may conduct a majority [poll](#polls) (called a "rule violation poll") to determine whether the accused player has violated the rules.
 
 ### Rule violation polls
 
@@ -110,7 +110,7 @@ If a rule violation poll passes by simple majority, then the accused player has 
 
 ### Punitive action
 
-If it is determined by a rule violation poll that a player (hereby "the rule breaker") has violated the rules, then another player may conduct a majority [poll](#polls) (called a "Punitive Action Poll") to determine whether punitive action should be taken.
+If it is determined by a rule violation poll that a player (hereby "the rule breaker") has violated the rules, then another player may conduct a majority [poll](#polls) (called a "puninitive action poll") to determine whether punitive action should be taken.
 
 Players should vote in favour of this poll if, and only if, they believe the rule breaker acted knowingly and with malicious intent.
 
@@ -132,13 +132,13 @@ All players that have taken some game action in the preceding 72 hours are activ
 
 ## Polls
 
-A Poll is a means of gathering the opinions of Players on an issue. Players may conduct a Poll by providing any necessary detail and posing a question in the #polls game channel.
+A poll is a means of gathering the opinions of players on an issue. Players may conduct a poll by providing any necessary detail and posing a question in the #polls game channel.
 
 Players may vote in favor of a poll by reacting to the poll with a "Thumbs Up" (:thumbsup:).
 
 Players may vote against a poll by reacting to the poll with a "Thumbs Down" (:thumbsdown:).
 
-Players may use any reaction they wish to respond to a Poll. The player conducting the poll may interpret other reactions to the poll as they see fit.
+Players may use any reaction they wish to respond to a poll. The player conducting the poll may interpret other reactions to the poll as they see fit.
 
 ## Proposals
 
