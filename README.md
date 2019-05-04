@@ -89,7 +89,9 @@ All players that have taken some game action in the preceding 72 hours are activ
 
 ## Quantities
 
-[TODO: by default, only allow positive integers and zero]
+A quantity is a property of a player that represents a numerical value.
+
+By default any unique quantity added to the game, applies to all players, is instatiated at zero, must always be integral, must never have a negative value, may not be traded with other players, and must be earned or spent in accordance to the game rules.
 
 ## Polls
 
