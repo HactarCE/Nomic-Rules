@@ -43,17 +43,17 @@ In the case of a contradiction between clauses, the following criteria are to be
 
 Unless explicitly stated in the rules, all game actions are forbidden.
 
-### Errors
-
-An error is a game action that is not permitted by the rules, but is undertaken by a player either mistakenly or through ignorance.
-
-Upon becoming aware of an error they have themselves caused, if a player is able to alter the game state so that it is as it would be if the error had never occurred, they must do so.
-
 ### Rule violations
 
 A rule violation is a game action that is not permitted by the rules.
 
 If any player (hereby "the accusing player") believes that another player (hereby "the accused player") has violated the rules, then the accusing player may conduct a majority [poll](#polls) (called a "rule violation poll") to determine whether the accused player has violated the rules.
+
+### Errors
+
+An error is a rule violation made by a player either mistakenly or through ignorance.
+
+Upon becoming aware of an error they have themselves caused, if a player is able to alter the game state so that it is as it would be if the error had never occurred, they must do so.
 
 ### Rule violation polls
 
@@ -188,6 +188,7 @@ The definitions for terms listed here take precedence over their normal English 
 
 * **The Game**: The instance of Nomic which is governed by this rules document.
 * **Game Action**: A game action is any message or reaction in a game channel or any other manipulation of game channels or quantities which are part of the game.
+* **Game State**: A specific arrangement of all game rules, proposals, polls, votes and quantities.
 * **Game Channel**: A game channel is any text or voice channel listed in the GAME CHANNELS channel category of the Discord server.
 * **Player**: Any participant of the game.
 * **The Rules**: The rules of the game, which are described by this document.
