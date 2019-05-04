@@ -11,6 +11,9 @@ This is the reference for the game rules of Nomic [VERSION]. This document is no
     * [Punitive action](#punitive-action)
 * [Channels](#channels)
     * [#general](#general)
+    * [#proposals](#proposals)
+    * [#polls](#polls)
+    * [#game-rules](#game-rules)
 * [Active and inactive players](#active-and-inactive-players)
 * [Quantities](#quantities)
 * [Polls](#polls)
@@ -107,7 +110,12 @@ All players that have taken some game action in the preceding 72 hours are activ
 
 A quantity is a property of a player that represents a numerical value.
 
-By default any unique quantity added to the game, applies to all players, is instatiated at zero, must always be integral, must never have a negative value, may not be traded with other players, and must be earned or spent in accordance to the game rules.
+By default any unique quantity added to the game; 
+
+* applies to all players.
+* is instatiated at zero.
+* must always be integral.
+* must never have a negative value.
 
 ## Polls
 
