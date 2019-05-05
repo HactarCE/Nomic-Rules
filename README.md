@@ -7,16 +7,17 @@ This is the reference for the game rules of Nomic [VERSION]. This document is no
 * [Meta rules](#meta-rules)
     * [Precedence](#precedence)
     * [Disallowed by default](#disallowed-by-default)
-    * [Errors](#errors)
     * [Rule violations](#rule-violations)
-    * [Rule violation polls](#rule-violation-polls)
-    * [Punitive action](#punitive-action)
+        * [Errors](#errors)
+        * [Rule violation polls](#rule-violation-polls)
+        * [Punitive action](#punitive-action)
+    * [Bots](#bots)
 * [Channels](#channels)
     * [#general](#general)
     * [#proposals](#proposals)
     * [#polls](#polls)
     * [#game-rules](#game-rules)
-* [Active and inactive players](#active-and-inactive-players)
+* [Activity](#activity)
 * [Quantities](#quantities)
 * [Polls](#polls)
 * [Proposals](#proposals)
@@ -52,15 +53,13 @@ Unless explicitly stated in the rules, all game actions are forbidden.
 
 A rule violation is a game action that is not permitted by the rules.
 
+#### Errors
+
+An error is a rule violation made by a player either mistakenly or through ignorance. If this player is able to alter the game state so that it is as it would be if the error had never occurred, they may do so.
+
+#### Rule violation polls
+
 If any player (hereby "the accusing player") believes that another player (hereby "the accused player") has violated the rules, then the accusing player may conduct a majority [poll](#polls) (called a "rule violation poll") to determine whether the accused player has violated the rules.
-
-### Errors
-
-An error is a rule violation made by a player either mistakenly or through ignorance.
-
-Upon becoming aware of an error they have themselves caused, if a player is able to alter the game state so that it is as it would be if the error had never occurred, they must do so.
-
-### Rule violation polls
 
 In conducting a rule violation poll, the accusing player must describe which sections or clauses of the rules were violated and what illegal game action was taken by the accused player. Players should vote in favor of this poll if, and only if, they agree that the accused player violated the rules as described.
 
@@ -72,17 +71,21 @@ For any potential rule violation, only one rule violation poll may be conducted.
 
 A rule violation poll may not be started more than 7 days after the potential rule violation.
 
-If a rule violation poll passes by simple majority, then the accused player has violated the rules as described in the poll. The effects of the rule violation are reversed to the extent it is possible to do so as quickly as possible.
+If a rule violation poll passes, then the accused player is now convicted of violating the rules as described in the poll. The effects of the rule violation must be reversed to the extent it is possible to do so as quickly as possible.
 
-### Punitive action
+#### Punitive action
 
-If it is determined by a rule violation poll that a player (hereby "the rule breaker") has violated the rules, then another player may conduct a majority [poll](#polls) (called a "puninitive action poll") to determine whether punitive action should be taken.
+If a player (hereby "the convicted player") is convicted, then another player may conduct a majority [poll](#polls) (called a "puninitive action poll") to determine whether punitive action should be taken.
 
-Players should vote in favour of this poll if, and only if, they believe the rule breaker acted knowingly and with malicious intent.
+Players should vote in favour of this poll if, and only if, they believe the convicted player violated the rules knowingly and with malicious intent.
 
-Any vote in such a poll cast by the accused player is not counted.
+Any vote in such a poll cast by the convicted player is not counted.
 
-If a punitive action poll passes by simple majority, then the accused player gains one strike.
+If a punitive action poll passes, then the convicted player gains one strike.
+
+### Bots
+
+Certain game functions may be performed automatically by automated "bots;" the behavior of such bots is not governed by the rules, and any function that bots may perform should be feasible, even if inconvenient to do manually.
 
 ## Channels
 
@@ -94,19 +97,29 @@ Players may converse freely in the #general channel.
 
 ### #proposals
 
-The proposals channel is governed by the [proposals](#proposals) section of the game rules and managed by a bot.
+The #proposals channel is governed by the [proposals](#proposals) section of the game rules.
 
 ### #polls
 
-The polls channel is governed by the [polls](#polls) section of the game rules.
+The #polls channel is governed by the [polls](#polls) section of the game rules.
 
 ### #game-rules
 
-The game-rules channel presents an alternate version of this rules document.
+The #game-rules channel presents an alternate version of this rules document.
 
-## Active and inactive players
+## Activity
 
 All players that have taken some game action in the preceding 72 hours are active players. All other players are inactive players.
+
+## Roles
+
+### Rule offender
+
+If a player has a nonzero number of strikes, then they are given the "rule offender" role. If a player's number of strikes reaches zero, the "rule offender" role is removed.
+
+Players with the "rule offender" role may not make _any_ game action; i.e. they may not participate in the game.
+
+After 24 hours with the "rule offender" role, a player's number of strikes decreases by one.
 
 ## Quantities
 
@@ -119,6 +132,8 @@ By default any unique quantity added to the game;
 * must always be an integer.
 * must never have a negative value.
 * cannot be traded or exchanged.
+
+* **Strike**: The number of rule violations that a player has committed without punishment.
 
 ## Polls
 
@@ -138,7 +153,7 @@ The first proposal is numbered #1 and each subsequent proposal's number is incre
 
 A proposal can describe any number of actions that make changes to the game rules, or otherwise alter the game state.
 
-A proposal is either open or closed. When it is first submitted a proposal is open.
+A proposal is either open or closed. When it is first submitted a proposal is open. A closed proposal is either passed or failed. When a player closes a proposal, they must either pass it or fail it.
 
 ### Voting on proposals
 
@@ -154,11 +169,11 @@ Any player may close a proposal 48 hours after it is submitted.
 
 Any player may close a proposal if all active players have cast a vote on the proposal.
 
-The player that authored a proposal may elect to close and fail it at any time.
+The player that authored a proposal may elect to fail it at any time.
 
 ### Passing and failing proposals
 
-When a proposals is closed, it passes if it has more votes in favour than against.
+When a proposal is closed, it passes if it has more votes in favour than against; otherwise, it fails.
 
 ## Style conventions
 
