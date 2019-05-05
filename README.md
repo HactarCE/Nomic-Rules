@@ -2,6 +2,8 @@
 
 This is the reference for the game rules of Nomic [VERSION]. This document is not guaranteed to always be up-to-date as the game rules are modified, however it is the duty of all players to keep this document accurate as game rules are modified. Where this document disagrees with the game rules, players must follow the game rules as they legally are, rather than their description in this document.
 
+## Table of contents
+
 * [Meta rules](#meta-rules)
     * [Precedence](#precedence)
     * [Disallowed by default](#disallowed-by-default)
@@ -114,8 +116,9 @@ By default any unique quantity added to the game;
 
 * applies to all players.
 * is instatiated at zero.
-* must always be integral.
+* must always be an integer.
 * must never have a negative value.
+* cannot be traded or exchanged.
 
 ## Polls
 
