@@ -200,7 +200,7 @@ This section and its subsections describe grammatical conventions used throughou
 * Unordered lists should use a single asterisk followed by a space (`* `) before each list element.
 * Ordered lists should use a single number followed by a period and a space (`1. `) before each list element.
 * The numbers of a ordered list should start at `1` and increase by `1` for each element.
-* Nested lists should use four spaces (`    `) per level of indentation.
+* Lists should not be nested.
 * Lists should be separated by the paragraphs above and below by a blank line.
 * Two lists of the same type can not be adjacent. (This is treated as one list when converted to Markdown.)
 
@@ -215,7 +215,7 @@ Within a given list, all elements should have the same style, chosen from the fo
 From [GitHub's "Mastering Markdown" document](https://guides.github.com/features/mastering-markdown/), the following may be used:
 
 * Emphasis (italics and bold, not including double underscore `__`)
-* Unordered and ordered lists
+* Unordered and ordered lists (not nested)
 * Links
 * Inline code
 * Automatic linking for URLs
