@@ -1,6 +1,6 @@
 # Game Rules
 
-This is the reference for the game rules of Nomic [VERSION]. This document is not guaranteed to always be up-to-date as the game rules are modified, however it is the duty of all players to keep this document accurate as game rules are modified. Where this document disagrees with the game rules, players must follow the game rules as they legally are, rather than their description in this document.
+This is the reference for the game rules of Quonauts 4. This document is not guaranteed to always be up-to-date as the game rules are modified, however it is the duty of all players to keep this document accurate as game rules are modified. Where this document disagrees with the game rules, players must follow the game rules as they legally are, rather than their description in this document.
 
 ## Table of contents
 
@@ -36,8 +36,6 @@ This is the reference for the game rules of Nomic [VERSION]. This document is no
 This section details how the rules are to be applied to the game.
 
 ### Precedence
-
-[TODO get more opinions on this section]
 
 In the case of a contradiction between clauses, the following criteria are to be considered in turn until a clear determination can be made as to which clause takes precedence:
 
@@ -85,7 +83,7 @@ If a punitive action poll passes, then the convicted player gains one strike.
 
 ### Bots
 
-Certain game functions may be performed automatically by automated "bots;" the behavior of such bots is not governed by the rules, and any function that bots may perform should be feasible, even if inconvenient to do manually.
+Certain game functions may be performed automatically by automated "bots;" the behavior of such bots is not governed by the rules, and any function that bots may perform should be feasible, even if inconvenient, to do manually.
 
 ## Channels
 
@@ -97,15 +95,15 @@ Players may converse freely in the #general channel.
 
 ### #proposals
 
-The #proposals channel is governed by the [proposals](#proposals) section of the game rules.
+The #proposals channel is governed by [%proposals].
 
 ### #polls
 
-The #polls channel is governed by the [polls](#polls) section of the game rules.
+The #polls channel is governed by [%polls].
 
 ### #game-rules
 
-The #game-rules channel presents an alternate version of this rules document.
+The #game-rules channel contains this rules document.
 
 ## Activity
 
@@ -123,9 +121,9 @@ After 24 hours with the "rule offender" role, a player's number of strikes decre
 
 ## Quantities
 
-A quantity is a property of a player that represents a numerical value.
+A quantity is a named property with a numerical value for each player.
 
-By default any unique quantity added to the game; 
+By default any unique quantity added to the game:
 
 * applies to all players.
 * is instatiated at zero.
@@ -133,15 +131,17 @@ By default any unique quantity added to the game;
 * must never have a negative value.
 * cannot be traded or exchanged.
 
+Existing quantities:
+
 * **Strike**: The number of rule violations that a player has committed without punishment.
 
 ## Polls
 
 A poll is a means of gathering the opinions of players on an issue. Players may conduct a poll by providing any necessary detail and posing a question in the #polls game channel.
 
-Players may vote in favor of a poll by reacting to the poll with a "Thumbs Up" (:thumbsup:).
+Players may vote in favor of a poll by reacting to the poll with :thumbsup:.
 
-Players may vote against a poll by reacting to the poll with a "Thumbs Down" (:thumbsdown:).
+Players may vote against a poll by reacting to the poll with :thumbsdown:.
 
 Players may use any reaction they wish to respond to a poll. The player conducting the poll may interpret other reactions to the poll as they see fit.
 
@@ -149,15 +149,15 @@ Players may use any reaction they wish to respond to a poll. The player conducti
 
 Players may submit proposals by posting their proposal to the #proposals game channel.
 
-The first proposal is numbered #1 and each subsequent proposal's number is increased by 1.
+The first proposal is numbered #1 and each subsequent proposal's number is increased by 1. Unless otherwise stated in the game rules, deleted proposals retain their number.
 
-A proposal can describe any number of actions that make changes to the game rules, or otherwise alter the game state.
+A proposal can describe any number of actions that make changes to the game rules or otherwise alter the game state.
 
 A proposal is either open or closed. When it is first submitted a proposal is open. A closed proposal is either passed or failed. When a player closes a proposal, they must either pass it or fail it.
 
 ### Voting on proposals
 
-Each player may cast one and only one vote on any given, open proposal.
+Each player may cast one vote on each open proposal.
 
 Players may vote for or against a proposal. Players may also explicitly abstain from voting.
 
@@ -169,7 +169,7 @@ Any player may close a proposal 48 hours after it is submitted.
 
 Any player may close a proposal if all active players have cast a vote on the proposal.
 
-The player that authored a proposal may elect to fail it at any time.
+The player that authored a proposal may elect to fail or delete it at any time.
 
 ### Passing and failing proposals
 
@@ -200,7 +200,7 @@ This section and its subsections describe grammatical conventions used throughou
 * Unordered lists should use a single asterisk followed by a space (`* `) before each list element.
 * Ordered lists should use a single number followed by a period and a space (`1. `) before each list element.
 * The numbers of a ordered list should start at `1` and increase by `1` for each element.
-* Lists should not be nested.
+* Nested lists should use four spaces (`    `) per level of indentation.
 * Lists should be separated by the paragraphs above and below by a blank line.
 * Two lists of the same type can not be adjacent. (This is treated as one list when converted to Markdown.)
 
@@ -215,14 +215,13 @@ Within a given list, all elements should have the same style, chosen from the fo
 From [GitHub's "Mastering Markdown" document](https://guides.github.com/features/mastering-markdown/), the following may be used:
 
 * Emphasis (italics and bold, not including double underscore `__`)
-* Unordered and ordered lists (not nested)
+* Unordered and ordered lists
 * Links
 * Inline code
-* Username @mentions
 * Automatic linking for URLs
 * Strikethrough
 
-Additionally, square brackets `[]` containing a tag will be converted into links to another rule section; e.g. [precedence].
+Additionally, square brackets `[]` containing a tag will be converted into links to another rule section; e.g. [%precedence]. Discord mentions (@username, @role, and #channel) may be used, however they are not readable in GitHub-flavored markdown.
 
 ## Glossary
 
