@@ -38,6 +38,7 @@ This is the base rule set for the Quonauts 5 Nomic.
     * [Closing proposals](closing-proposals)
     * [Passing and failing proposals](passing-and-failing-proposals)
     * [Proposal modification](#proposal-modification)
+* [Win conditions](#win-conditions)
 
 ## Meta rules
 
@@ -290,3 +291,7 @@ When a proposal is closed, it passes if it has more votes in favour than against
 ### Proposal modification
 
 A player may edit a proposal they have submitted if that proposal is open for voting and has no votes cast by players other than its author.
+
+## Win conditions
+
+The game ends when one or more players have won.
