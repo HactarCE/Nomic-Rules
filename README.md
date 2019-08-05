@@ -5,31 +5,39 @@ This is the base rule set for the Quonauts 5 Nomic.
 ## Table of contents
 
 * [Meta rules](#meta-rules)
+    * [Accuracy](#accuracy)
     * [Precedence](#precedence)
     * [Disallowed by default](#disallowed-by-default)
     * [Rule violations](#rule-violations)
         * [Errors](#errors)
         * [Rule violation polls](#rule-violation-polls)
         * [Punitive action](#punitive-action)
+    * [Timezones](#timezones)
     * [Bots](#bots)
+    * [Style conventions](#style-conventions)
+        * [Content](#content)
+        * [Headers and tags](#headers-and-tags)
+        * [Lists](#lists)
+        * [Formatting](#formatting)
+    * [Glossary](#glossary)
 * [Channels](#channels)
     * [#general](#general)
     * [#proposals](#proposals)
     * [#polls](#polls)
-    * [#game-rules](#game-rules)
+    * [#rules](#rules)
+* [Roles](#roles)
+    * [Rule offender](#rule-offender)
 * [Activity](#activity)
 * [Quantities](#quantities)
 * [Polls](#polls)
 * [Proposals](#proposals)
+    * [Proposal content](#proposal-content)
+        * [Conflict resolution](#conflict-resolution)
+        * [Dependency resolution](#dependency-resolution)
     * [Voting on proposals](voting-on-proposals)
     * [Closing proposals](closing-proposals)
     * [Passing and failing proposals](passing-and-failing-proposals)
-* [Style conventions](#style-conventions)
-    * [Content](#content)
-    * [Headers and tags](#headers-and-tags)
-    * [Lists](#lists)
-    * [Formatting](#formatting)
-* [Glossary](#glossary)
+    * [Proposal modification](#proposal-modification)
 
 ## Meta rules
 
@@ -279,6 +287,6 @@ When a player passes a proposal, that player must carry out the effects of that 
 
 When a proposal is closed, it passes if it has more votes in favour than against; otherwise, it fails.
 
-### <a name='proposal-modification'/> Proposal modification
+### Proposal modification
 
 A player may edit a proposal they have submitted if that proposal is open for voting and has no votes cast by players other than its author.
