@@ -222,6 +222,7 @@ By default any unique quantity added to the game:
 
 Existing quantities:
 
+* **Action**
 * **Strike**: The number of rule violations that a player has committed without punishment.
 
 ## Polls
@@ -291,6 +292,14 @@ When a proposal is closed, it passes if it has more votes in favour than against
 ### Proposal modification
 
 A player may edit a proposal they have submitted if that proposal is open for voting and has no votes cast by players other than its author.
+
+## Actions
+
+Actions can be spent to effect changes to the game state. Actions may only be spent in a manner that is explicitly described in the game rules.
+
+### Claiming actions
+
+A player may claim a number of actions equal to the number of 24-hour periods that have elapsed since they last claimed actions. A player may gain no more than 3 actions each time they claim actions.
 
 ## Win conditions
 
