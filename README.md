@@ -34,11 +34,14 @@ This is the base rule set for the Quonauts 5 Nomic.
     * [Proposal content](#proposal-content)
         * [Conflict resolution](#conflict-resolution)
         * [Dependency resolution](#dependency-resolution)
-    * [Voting on proposals](voting-on-proposals)
-    * [Closing proposals](closing-proposals)
-    * [Passing and failing proposals](passing-and-failing-proposals)
+    * [Voting on proposals](#voting-on-proposals)
+    * [Closing proposals](#closing-proposals)
+    * [Passing and failing proposals](#passing-and-failing-proposals)
     * [Proposal modification](#proposal-modification)
+* [Actions](#actions)
+    * [Claiming actions](#claiming-actions)
 * [Win conditions](#win-conditions)
+* [Ending the game](#ending-the-game)
 
 ## Meta rules
 
@@ -303,4 +306,8 @@ A player may claim a number of actions equal to the number of 24-hour periods th
 
 ## Win conditions
 
-The game ends when one or more players have won.
+No player can win the game.
+
+## End of the game
+
+The game ends when one or more players have won the game.
