@@ -41,7 +41,8 @@ This is the base rule set for the Quonauts 5 Nomic.
 * [Actions](#actions)
     * [Claiming actions](#claiming-actions)
 * [Win conditions](#win-conditions)
-* [Ending the game](#ending-the-game)
+    * [Rounds](#rounds)
+* [End of the game](#end-of-the-game)
 
 ## Meta rules
 
@@ -306,8 +307,18 @@ A player may claim a number of actions equal to the number of 24-hour periods th
 
 ## Win conditions
 
-No player can win the game.
+A player with 100 points wins the round.
+
+### Rounds
+
+One round of the game takes place at a time.
+
+The first round begins immediately as the game begins. Each subsequent round begins as the preceding round ends.
+
+A round ends when one or more players wins the round.
+
+Whenever a round begins, all quantities are reset to their initial values.
 
 ## End of the game
 
-The game ends when one or more players have won the game.
+The game does not end.
