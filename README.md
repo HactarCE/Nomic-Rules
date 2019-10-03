@@ -10,7 +10,8 @@ This is the base rule set for the Quonauts 5 Nomic.
     * [Disallowed by default](#disallowed-by-default)
     * [Rule violations](#rule-violations)
         * [Errors](#errors)
-        * [Rule violation polls](#rule-violation-polls)
+        * [Judgement](#judgement)
+        * [Appeals](#appeals)
         * [Punitive action](#punitive-action)
     * [Timezones](#timezones)
     * [Bots](#bots)
@@ -29,12 +30,18 @@ This is the base rule set for the Quonauts 5 Nomic.
     * [Rule offender](#rule-offender)
 * [Activity](#activity)
 * [Quantities](#quantities)
+* [Officials](#officials)
+    * [Existing Offices](#existing-offices)
+    * [The Jester](#the-jester)
 * [Polls](#polls)
 * [Proposals](#proposals)
+    * [Proposals as rule amendments](#proposals-as-rule-amendments)
+    * [Proposals as game actions](#proposals-as-game-actions)
     * [Proposal content](#proposal-content)
         * [Conflict resolution](#conflict-resolution)
         * [Dependency resolution](#dependency-resolution)
     * [Voting on proposals](#voting-on-proposals)
+    * [Proposal veto](#proposal-veto)
     * [Closing proposals](#closing-proposals)
     * [Passing and failing proposals](#passing-and-failing-proposals)
     * [Proposal modification](#proposal-modification)
@@ -68,39 +75,51 @@ Unless explicitly stated in the rules, all game actions are forbidden.
 
 A rule violation is a game action that is not permitted by the rules.
 
-A rule violation is "resolved" by reversing the immediate effects of that rule violation (not including any indirect effects permitted in reaction to the rule violation) to the extent that it is possible.
+Resolving a rule violation is the process of reversing the immediate effects of that rule violation (not including any indirect effects permitted in reaction to the rule violation) to the extent that it is possible.
 
 #### Errors
 
-An error is a rule violation made by a player either mistakenly or through ignorance. If this player is resolve the error, they may do so.
+An error is a rule violation made by a player either mistakenly or through ignorance. If a player causes a rule violation and is able to resolve the error, they may do so.
 
-If a player resolves an error within 24 hours of making that error, any rule violation poll for that error immediately fails. A rule violation poll may not begin after a player resolves an error; however, existing rule violation polls may continue if the error remained unresolved for 24 hours.
+If a player resolves an error within 24 hours of making that error, and the resolution of the error leaves the game state in such fashion that it is as if the error had never occurred, no punitive action can be taken against the player.
 
-#### Rule violation polls
+#### Judgements
 
-If any player (hereby "the accusing player") believes that another player (hereby "the accused player") has violated the rules, then the accusing player may conduct a majority poll (called a "rule violation poll") to determine whether the accused player has violated the rules.
+Judgements are rulings made by an official known as The Arbiter.
 
-In conducting a rule violation poll, the accusing player must describe which sections or clauses of the rules were violated and what illegal game action was taken by the accused player. Players should vote in favor of this poll if, and only if, they agree that the accused player violated the rules as described.
+If any player ("the accusing player") believes that another player (hereby "the accused player") has violated the rules, then the accusing player may call upon The Arbiter to make a judgement. The accusing player must describe which sections or clauses of the rules were violated and what illegal game action was taken by the accused player. The Arbiter must make a judgement on whether a rule violation took place.
 
-Any vote in such a poll cast by the accused player is not counted.
+If The Arbiter determines that a rule violation took place, the rule violation must be resolved, if it has not already.
 
-A rule violation poll must be available for voting for at least 24 hours before any action may be taken as a result.
+Whenever the Arbiter makes a judgement they may spend an action. If they do, they gain three points.
 
-For any potential rule violation, only one rule violation poll may be conducted.
+#### Appeals
 
-A rule violation poll may not be started more than 7 days after the potential rule violation.
+If any player believes that a judgement made by The Arbiter is incorrect they may cite the specific judgement in an appeal poll.
 
-If a rule violation poll passes, then the accused player is now convicted of violating the rules as described in the poll and the rule violation must be resolved, if it has not already.
+Players should vote in favor of this poll if, and only if, they agree that the accused player violated the rules as described.
+
+Any vote in such a poll cast by The Arbiter or the accused player in the cited judgement is not counted.
+
+An appeal poll must be available for voting for at least 24 hours before any action may be taken as a result.
+
+For any given ruling, only one appeal poll may be conducted.
+
+An appeal poll may not be started more than seven days after the cited ruling.
+
+If an appeal poll passes, any effects of the judgement are overturned.
 
 #### Punitive action
 
-If a player (hereby "the convicted player") is convicted, then another player may conduct a majority poll (called a "puninitive action poll") to determine whether punitive action should be taken.
+Punitive action is to be determined by an official knows as The Justice.
 
-Players should vote in favour of this poll if, and only if, they believe the convicted player violated the rules knowingly and with malicious intent.
+If a player is judged to have violated the rules, The Justice must determine what punitive action is taken. The Justice may select any combination of the following:
 
-Any vote in such a poll cast by the convicted player is not counted.
+* A fine of up to ten points
+* An award of one strike.
+* Stripping the player of any office held.
 
-If a punitive action poll passes, then the convicted player gains one strike.
+In addition, a player that has punitive action taken against them may not assume any office for 24 hours after punitive action is taken.
 
 ### Timezones
 
@@ -218,16 +237,46 @@ A quantity is a named property with a numerical value for each player.
 
 By default any unique quantity added to the game:
 
-* applies to all players.
-* is instatiated at zero.
-* must always be an integer.
-* must never have a negative value.
+* applies to all players,
+* is instatiated at zero,
+* must always be an integer,
+* must never have a negative value,
 * cannot be traded or exchanged.
 
-Existing quantities:
+The following quantities exist within the game:
 
+* **Point**
 * **Action**
-* **Strike**: The number of rule violations that a player has committed without punishment.
+* **Strike**
+
+## Officials
+
+An official is a player that holds an office, a specific role that interacts with some aspect of the game.
+
+An official may not assume a second office.
+
+An official may pass their office to another player only if the other player agrees to accept the office.
+
+A player may seize the office of an inactive official.
+
+### Existing Offices
+
+Only offices defined within this list exist within the game. Where the powers and responsibilities of each office are defined elsewhere in the rule, the relevant sections should be defined here.
+
+* **Arbiter**: 
+* **Justice**: 
+* **Minister**: 
+* **Provost**: 
+* **Tzar**: 
+* **Jester**
+
+### The Jester
+
+The jester is an official.
+
+The jester primarily responsible for drawing attention to elements of the rules and game actions taken by players that might be of interest to other players and could easily be overlooked.
+
+The jester may spend an action to send a missive. A missive takes the form of a message sent to the #general channel. The jester earns 1 point for each "thumbs up" reaction to their missive. The jester may react to their own missive, but may not earn points for doing so.
 
 ## Polls
 
@@ -241,19 +290,37 @@ The player that posted a poll may edit it freely, as long as such edits do not c
 
 ## Proposals
 
-Players may submit proposals by posting their proposal to the #proposals game channel.
+Proposals can be made by posting them to the #proposals game channel.
 
 The first proposal is numbered #1 and each subsequent proposal's number is increased by 1. Deleted proposals retain their number.
 
-A proposal can describe any number of actions that make changes to the game rules or otherwise alter the game state.
-
 A proposal is either open or closed. When it is first submitted a proposal is open. A closed proposal is either passed or failed. When a player closes a proposal, they must either pass it or fail it.
+
+### Proposals as rule amendments
+
+The Provost is an official who can attempt to change the rules of the game through proposals. 
+
+The Provost may spend an action to make a proposal that describes any number of changes to the game rules.
+
+When a proposal made by the Provost is closed, if the proposal passes, the Provost earns two points.
+
+### Proposals as game actions
+
+The Minister is an official who can attmept to make changes to the game state through proposals.
+
+The Minister may spend an action to make a proposals that describes any number of actions that alter the game state in any fashion.
+
+Proposals made by the Minister must not make changes to the game rules.
+
+Proposals made by the Minister receiving two or more votes against cannot pass.
+
+When a proposal made by the Minister is closed, if the proposal passes, the Minister earns three points.
 
 ### Proposal content
 
 A proposal can describe any number of actions that make changes to the game rules or otherwise alter the game state.
 
-If a proposal describes a modification to the rules, it must unambiguously specify the rule section(s) to be modified and how they will be modified. Text quoted between the outermost `[start]` and `[end]` symbols (brackets required; code tags optional) is to be interpreted literally. `[start]` and `[end]` symbols can be nested.
+If a proposal describes a modification to the rules, it must unambiguously specify the rule section(s) to be modified and how they will be modified.
 
 If a proposal describes the creation of a new rule section, it must specify its title, its location in relation to an existing one, and its content.
 
@@ -276,6 +343,12 @@ Each player may cast one vote on each open proposal.
 Players may vote for or against a proposal. Players may also explicitly abstain from voting.
 
 A player may change their vote on an open proposal at any time.
+
+### Proposal veto
+
+The Tzar is an official who provides oversight for proposals.
+
+The Tzar may spend an action to veto a proposal, closing and failing it immediately. When The Tzar spends an action this way, they surrender the Tzar office.
 
 ### Closing proposals
 
