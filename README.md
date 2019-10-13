@@ -47,6 +47,8 @@ This is the base rule set for the Quonauts 5 Nomic.
     * [Proposal modification](#proposal-modification)
 * [Space exploration](#space-exploration)
     * [Orientation and description](#orientation-and-description)
+    * [Sectors](#sectors)
+    * [Heavenly bodies](#heavenly-bodies)
 * [Actions](#actions)
     * [Claiming actions](#claiming-actions)
 * [Win conditions](#win-conditions)
@@ -376,11 +378,29 @@ A player may edit a proposal they have submitted if that proposal is open for vo
 
 The galactic map is a grid of tiles known as sectors. The sector with coordinates (0, 0) is also known as the origin.
 
-## Orientation and description
+### Map orientation and description
 
 The galactic map is made up of grid, the tiles of which are tesselated regular hexagons with a point facing upwards.
 
 The position of a tile on the grid is decribed by its two-dimensional (x, y) coordinate such that the x-component extends to the right and the y-component extends downward and to the right.
+
+### Sectors
+
+Each map sector has one of three discovery states:
+
+* **Hidden**
+* **Scanned**
+* **Explored**
+
+### Heavenly bodies
+
+A sector can either be empty, or can contain exactly one heavenly body. The categories of heavenly body that exist are those described in the following list:
+
+* **Planet:** Spheroidal bodies of rock or gas. A source of minerals and other resources. Sometimes inhabitable.
+* **Asteroids:** Collections of small rocky objects. A source of minerals.
+* **Star:** Burning spheres of gas. A source of energy.
+* **Nebula:** Clouds of gas.
+* **Black Hole:** Singularity that absorbs light and matter.
 
 ## Actions
 
