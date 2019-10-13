@@ -370,6 +370,16 @@ When a proposal is closed, it passes if it has more votes in favour than against
 
 A player may edit a proposal they have submitted if that proposal is open for voting and has no votes cast by players other than its author.
 
+## Space exploration
+
+The galactic map is a grid of tiles known as sectors. The sector with coordinates (0, 0) is also known as the origin.
+
+## Orientation and description
+
+The galactic map is made up of grid, the tiles of which are tesselated regular hexagons with a point facing upwards.
+
+The position of a tile on the grid is decribed by its two-dimensional (x, y) coordinate such that the x-component extends to the right and the y-component extends downward and to the right.
+
 ## Actions
 
 Actions can be spent to effect changes to the game state. Actions may only be spent in a manner that is explicitly described in the game rules.
