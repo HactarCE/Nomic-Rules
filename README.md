@@ -45,6 +45,8 @@ This is the base rule set for the Quonauts 5 Nomic.
     * [Closing proposals](#closing-proposals)
     * [Passing and failing proposals](#passing-and-failing-proposals)
     * [Proposal modification](#proposal-modification)
+* [Space exploration](#space-exploration)
+    * [Orientation and description](#orientation-and-description)
 * [Actions](#actions)
     * [Claiming actions](#claiming-actions)
 * [Win conditions](#win-conditions)
@@ -306,7 +308,7 @@ When a proposal made by the Provost is closed, if the proposal passes, the Provo
 
 ### Proposals as game actions
 
-The Minister is an official who can attmept to make changes to the game state through proposals.
+The Minister is an official who can attempt to make changes to the game state through proposals.
 
 The Minister may spend an action to make a proposals that describes any number of actions that alter the game state in any fashion.
 
